@@ -6,7 +6,7 @@ function App() {
   const [items, setItems] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost.pythonanywhere.com/api/items')
+    axios.get('https://localhost.pythonanywhere.com/api/items')
       .then(response => setItems(response.data))
       .catch(error => console.log(error));
   }, []);
