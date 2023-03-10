@@ -14,7 +14,8 @@ function Navbar() {
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item"><Link className="nav-link active fs-5 fw-light me-5" to="/"    >Home   </Link></li>
         <li className="nav-item"><Link className="nav-link active fs-5 fw-light me-5" to="Men"  >Men    </Link></li>
-        <li className="nav-item"><Link className="nav-link active fs-5 fw-light me-0" to='Women'>Women  </Link></li>
+        <li className="nav-item"><Link className="nav-link active fs-5 fw-light me-5" to='Women'>Women  </Link></li>
+        <li className="nav-item"><Link className="nav-link active fs-5 fw-light me-0" to='Add'  >add products  </Link></li>
       </ul>
       <form className="d-flex" role="search">
         <input className="form-control me-2 text-end" type="search" placeholder="Search /" aria-label="Search"/>
