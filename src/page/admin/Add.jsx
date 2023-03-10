@@ -15,10 +15,10 @@ function Add() {
     <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
   </div>
   }
-    const handleSubmit = async (event) => {
+    const handleSubmit = (event) => {
       event.preventDefault();
       const formData = new FormData(event.target);
-      const response = await axios.post('http://localhost.pythonanywhere.com/api/items/add', formData);
+      const response = axios.post('https://localhost.pythonanywhere.com/api/items/add', formData);
       console.log(response.data)
       web()
       settext('')  
